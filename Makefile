@@ -7,7 +7,7 @@
 NAME = serve
 DIST_DIR = dist
 REPO="github.com/z0mbie42/$(NAME)"
-VERSION := $(shell cat version.go| grep "\sVersion" | cut -d '"' -f2)
+VERSION := $(shell cat version.go| grep "\sVersion =" | cut -d '"' -f2)
 
 define checksums
 	echo $$(openssl sha512 $(1) | cut -d " " -f2) $$(echo $(1) | rev | cut -d "/" -f1 | rev) >> $(2)/sha512sum$(3)
