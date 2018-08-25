@@ -26,10 +26,12 @@ $ go get -u github.com/z0mbie42/serve
 
 ## Usage
 
+### serve
 ```bash
 $ serve
 ```
 
+### help
 ```bash
 $ serve help
 The simplest directory serving web server. See https://github.com/z0mbie42/serve
