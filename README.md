@@ -1,4 +1,4 @@
-# Serve
+# serve
 
 [![GitHub release](https://img.shields.io/github/release/z0mbie42/serve.svg)](https://github.com/z0mbie42/serve/releases/latest)
 [![Build Status](https://travis-ci.org/z0mbie42/serve.svg?branch=master)](https://travis-ci.org/z0mbie42/serve)
